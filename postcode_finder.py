@@ -1,5 +1,6 @@
 '''functions used to find postcodes
 	ref_df is the csv file containing the postcode data (import via pandas)
+	column names ('MCS State') will need to be changed to reflect the columns names of actual dataframe
 '''
 
 ref_post_df_1 =  ref_post_df.loc[ref_post_df['type'] == 'Delivery Area                                ']
